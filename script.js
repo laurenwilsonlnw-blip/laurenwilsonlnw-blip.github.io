@@ -1,1 +1,2 @@
-document.querySelectorAll('a[href^="#"]').forEach(link=>{link.addEventListener("click",e=>{const target=document.querySelector(link.getAttribute("href"));if(target){e.preventDefault();target.scrollIntoView({behavior:"smooth",block:"start"})}})});
+// Kept intentionally lightweight so the static GitHub Pages site stays fast.
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const el=document.querySelector(a.getAttribute('href'));if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'})}}));

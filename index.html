@@ -1,18 +1,84 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Lauren Wilson — Computer Science graduate and Digital Arts creative.">
-<title>Lauren Wilson. — Bio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Bio — Lauren Wilson</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<header class="site-header"><a class="brand" href="index.html">Lauren Wilson.</a><nav aria-label="Main navigation"><a class="active" href="index.html">Bio</a><a href="experience.html">Experience</a><a href="portfolio.html">Portfolio</a></nav></header>
+<body class="bio-page">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">Lauren Wilson<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="index.html">Bio</a>
+      <a href="experience.html">Experience</a>
+      <a href="portfolio.html">Portfolio</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-<section class="hero page-width"><div class="hero-copy"><p class="eyebrow">Computer Science graduate · Digital Arts</p><h1>Hi, I’m Lauren.<br><span>Where code meets creative work.</span></h1><p class="lede">I’m a Computer Science graduate from the University of North Carolina Wilmington with a concentration in Digital Arts, based in Raleigh, North Carolina.</p><div class="actions"><a class="button" href="portfolio.html">View portfolio <span>↗</span></a><a class="underlink" href="mailto:laurenwilsonlnw@gmail.com">Get in touch</a></div></div><div class="portrait"><div class="portrait-mark">LW</div><small>Headshot</small></div></section>
-<section class="intro page-width"><div class="label">01 / About</div><div><h2>About me</h2><p>My studies paired core computer science — data structures, algorithmic problem solving, object-oriented design, and networks — with web development, creative coding, and digital art. I enjoy projects that sit in the space between the technical and the visual.</p><p>Today I work in customer-facing retail, where I’ve sharpened my communication, teamwork, and ability to stay organized in a fast-paced environment. I’m eager to bring that same care and reliability to my next opportunity.</p><div class="facts"><div><span>Based in</span><strong>Raleigh, NC</strong></div><div><span>Education</span><strong>B.S. Computer Science, UNCW ’24</strong></div></div></div></section>
+  <section class="bio-hero content-width">
+    <div class="bio-copy">
+      <p class="eyebrow">Computer Science graduate · Digital Arts</p>
+      <h1>Hi, I’m Lauren.<br><em>Where code meets<br>creative work.</em></h1>
+      <p class="hero-lede">I’m a Computer Science graduate from the University of North Carolina Wilmington with a concentration in Digital Arts, based in Raleigh, North Carolina.</p>
+      <div class="hero-actions">
+        <a class="pill-button filled" href="portfolio.html">View portfolio <span>→</span></a>
+        <a class="pill-button outlined" href="mailto:laurenwilsonlnw@gmail.com"><span class="mail-icon">⌑</span> Get in touch</a>
+      </div>
+    </div>
+
+    <div class="headshot-placeholder" aria-label="Placeholder for a headshot of Lauren Wilson">
+      <div class="headshot-art">
+        <div class="headshot-coral"></div>
+        <div class="headshot-head"></div>
+        <div class="headshot-body"></div>
+      </div>
+      <span>PHOTO COMING SOON</span>
+    </div>
+  </section>
+
+  <section class="bio-section content-width about-section">
+    <h2>About me</h2>
+    <div class="about-content">
+      <p>My studies paired core computer science — data structures, algorithmic problem solving, object-oriented design, and networks — with web development, creative coding, and digital art. I enjoy projects that sit in the space between the technical and the visual.</p>
+      <p>Today I work in customer-facing retail, where I’ve sharpened my communication, teamwork, and ability to stay organized in a fast-paced environment. I’m eager to bring that same care and reliability to my next opportunity.</p>
+      <div class="fact-grid">
+        <div class="fact-card"><span class="fact-icon">⌖</span><div><small>Based in</small><strong>Raleigh, NC</strong></div></div>
+        <div class="fact-card"><span class="fact-icon">♧</span><div><small>Education</small><strong>B.S. Computer Science, UNCW<br>’24</strong></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bio-section content-width skills-section">
+    <h2>Technical skills</h2>
+    <div class="skill-grid">
+      <article class="skill-card"><h3>Programming<br>Languages</h3><ul><li>Python</li><li>Java</li><li>HTML</li></ul></article>
+      <article class="skill-card"><h3>Core Concepts</h3><ul><li>Data Structures</li><li>Algorithmic Problem<br>Solving</li><li>Discrete Mathematics</li><li>Object-Oriented<br>Design</li></ul></article>
+      <article class="skill-card"><h3>Tools &amp;<br>Platforms</h3><ul><li>GitHub</li><li>Microsoft Excel</li><li>Word</li><li>PowerPoint</li><li>Adobe Photoshop</li></ul></article>
+    </div>
+  </section>
+
+  <section class="connect-card content-width">
+    <div>
+      <h2>Let’s connect.</h2>
+      <p>Availability: Open to part-time shifts, including evenings, weekends, and holidays.</p>
+    </div>
+    <a class="pill-button white" href="mailto:laurenwilsonlnw@gmail.com"><span class="mail-icon">⌑</span> Email Lauren</a>
+  </section>
 </main>
-<footer class="footer page-width"><span>Lauren Wilson</span><span>Raleigh, NC</span><a href="mailto:laurenwilsonlnw@gmail.com">laurenwilsonlnw@gmail.com</a></footer>
-</body></html>
+
+<footer class="site-footer">
+  <div class="footer-inner content-width">
+    <span class="footer-name">Lauren Wilson</span>
+    <div class="footer-meta"><span>⌖&nbsp; Raleigh, NC</span><a href="mailto:laurenwilsonlnw@gmail.com">⌑&nbsp; laurenwilsonlnw@gmail.com</a></div>
+  </div>
+</footer>
+</body>
+</html>
